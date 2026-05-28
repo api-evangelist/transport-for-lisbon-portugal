@@ -1,0 +1,32 @@
+aid: transport-for-lisbon-portugal
+name: Transport for Lisbon, Portugal
+description: "Data about buses routes, parking and traffic"
+url: https://emel.city-platform.com/opendata/
+specificationVersion: '0.20'
+created: '2026-05-28'
+modified: '2026-05-28'
+x-source: public-apis/public-apis
+x-category: "Transportation"
+x-tier: 3
+x-tier-reason: bulk-registered-from-public-apis
+tags:
+  - Transportation
+  - Public APIs
+apis:
+  - name: Transport for Lisbon, Portugal
+    description: "Data about buses routes, parking and traffic"
+    humanURL: https://emel.city-platform.com/opendata/
+    baseURL: https://emel.city-platform.com/opendata/
+    tags:
+      - Transportation
+    properties:
+      - type: Documentation
+        url: https://emel.city-platform.com/opendata/
+common:
+  - type: Website
+    url: https://emel.city-platform.com/opendata/
+  - type: PublicAPIsListing
+    url: https://github.com/public-apis/public-apis
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
