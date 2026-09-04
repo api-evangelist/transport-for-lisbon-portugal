@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://emel.city-platform.com/opendata/', status: 302, note: 'declared website redirects to https://www.emel.pt/pt/seguranca-digital-17102024/ — a different registrable domain (city-platform.com -> emel.pt), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/transport-for-lisbon-portugal.png
 name: Transport for Lisbon, Portugal
 description: "Data about buses routes, parking and traffic"
